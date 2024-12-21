@@ -1,0 +1,32 @@
+{
+  "name": "@holasoymalva/bone.js",
+  "version": "0.1.0",
+  "description": "A minimalist framework for quickly creating Node.js APIs following best practices",
+  "main": "lib/core/application.js",
+  "bin": {
+    "bone": "./bin/bone-cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "api",
+    "framework",
+    "node",
+    "rest",
+    "cli"
+  ],
+  "author": "holasoymalva",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "express": "^4.17.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "eslint": "^8.7.0"
+  }
+}
